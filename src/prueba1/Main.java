@@ -24,7 +24,18 @@ public class Main {
             String tipo=lea.next().toUpperCase();
             if (tipo.equals("MOVIE")){
                 
+            }else if (tipo.equals("PS3")){
+                
+            }else{
+                System.out.println("TIPO INCORRECTO");
             }
+            
+        }else if(numero==2){
+            
+        }else if(numero==3){
+            
+        }else{
+            System.out.println("Opcion incorrecta");
         }
     }
     
