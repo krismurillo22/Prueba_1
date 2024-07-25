@@ -9,10 +9,10 @@ package prueba1;
  * @author User
  */
 public class RentItem {
-    private int codigo;
-    private String nombre;
-    private double precioRenta;
-    private int cantidadCopias;
+    protected int codigo;
+    protected String nombre;
+    protected double precioRenta;
+    protected int cantidadCopias;
     
     public RentItem(int codigo, String nombre, double precio){
         this.codigo=codigo;
