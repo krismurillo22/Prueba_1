@@ -51,7 +51,7 @@ public class Movie extends RentItem{
         }else if (opcion==2){
             System.out.println("Ingrese el estado actualizado: ");
             String nuevoEstado= lea.next().toUpperCase();
-            
+            setEstado(nuevoEstado);
         }else{
             System.out.println("Opcion No Valida");
         }
